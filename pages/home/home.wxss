@@ -1,0 +1,33 @@
+.banner{
+  display: flex;
+  flex-wrap: wrap;
+}
+.banner view{
+ width: 33.33%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-bottom:20rpx;
+}
+.banner view image{
+  width: 100rpx;
+  height: 100rpx;
+}
+
+/* 推荐商品 */
+.news{
+  display: flex;
+  flex-wrap: wrap;
+}
+.news view{
+  width: 50%;
+  height: 400rpx;
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-bottom:20rpx;
+}
+.news view image{
+  width: 100%;
+  height: 300rpx; 
+}

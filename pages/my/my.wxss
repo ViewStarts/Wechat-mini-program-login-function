@@ -1,0 +1,30 @@
+.avatar{
+  display: block;
+  width: 280rpx;
+  height: 280rpx;
+  border-radius: 50%;
+  margin: 60rpx auto;
+}
+.nick-Name{
+display: block;
+width: 750rpx;
+text-align: center;
+font-size: 40rpx;
+}
+.nav{
+  display: flex;
+  flex-direction: column;
+}
+.nav .right{
+  float: right;
+}
+.nav navigator{
+  padding: 16rpx;
+  border-bottom: 1rpx silver solid;
+  box-shadow: 0 1rpx rgba(128,128,128,0.616);
+}
+.btn-login{
+  margin-top: 50rpx;
+  background-color: #2897d3;
+  color: white;
+}

@@ -1,0 +1,12 @@
+<view>
+  <image src="/pages/images/header/892da5ab782094ede3b2afc1fd72d80a_1.jpg" class="avatar" />
+  <text class="nick-Name">{{info.nick-Name||info.userName}}</text>
+  <view class="nav">
+    <navigator url="/pages/user-info/info/index">个人信息<text class="right">></text></navigator>
+    <navigator url="/pages/post-detail/post-detail">我的积分<text class="right">></text></navigator>
+    <navigator url="/pages/post-detail/post-detail">修改密码<text class="right">></text></navigator>
+    <navigator url="/pages/post-detail/post-detail">我的讨论<text class="right">></text></navigator>
+    <navigator url="/pages/post-detail/post-detail">用户协议<text class="right">></text></navigator>
+  </view>
+  <button bind:tap="tologin" class="btn-login">注销</button>
+</view>

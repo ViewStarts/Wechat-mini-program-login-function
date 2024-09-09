@@ -1,0 +1,25 @@
+.post-item{
+  display: flex;
+  flex-direction: column;
+  gap:12rpx;
+  background-color: rgba(220,220, 220, 0.527);
+  padding: 16rpx;
+  margin: 12rpx;
+  box-shadow: 0 1rpx 0 gainsboro;
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.item{
+  display: flex;
+  flex-direction: column;
+  gap: 16rpx;
+  box-shadow: 0 1rpx 0 gainsboro;
+  padding: 12rpx;
+  width: 350rpx;
+  align-items: center;
+}
+.item image{
+  height: 200rpx;
+}

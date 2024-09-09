@@ -1,0 +1,13 @@
+<view class="post-item">
+  <text>【交易】最新上架的屠龙刀,一刀999</text>
+  <text>这个是刚在副本刷到的，手慢无</text>
+  <view bind:tap="newFile">上传</view>
+</view>
+<view class="container">
+  <!-- 显示商品信息 -->
+  <view class="item" wx:for="{{goods}}" wx:key="index">
+ <navigator url="/pages/goods-detail/goods-detail?id={{item.id}}"><image src="{{item.coverImage}}" mode="heightFix"/></navigator>
+  <text style="height: 2rem;">{{item.name}}</text>
+  <text style="font-style: italic;">价格:￥{{item.price}}</text>
+  </view>
+</view>

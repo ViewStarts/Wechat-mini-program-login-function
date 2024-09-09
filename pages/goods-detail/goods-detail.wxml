@@ -1,0 +1,2 @@
+<text>{{goodsInfo.name}}</text>
+<rich-text nodes="{{goodsInfo.content}}"></rich-text>

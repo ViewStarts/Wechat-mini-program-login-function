@@ -1,0 +1,7 @@
+<view class="login">
+  <image src="/pages/images/header/银狼.jpg" mode="" class="logo" />
+  <input class="txt" type="text" placeholder="请输入用户名" bindinput="handleUsernameInput"/>
+  <input class="txt" type="password" placeholder="请输入密码" bindinput="handlePasswordInput" />
+  <button class="btn" bind:tap="regHandle">注册</button>
+  <navigator style="margin-top: 30rpx;float: right;margin-right: 20rpx;font-size:.8rem;color: #333;" url="/pages/login/login" open-type="redirect">已有账号，我要登录</navigator>
+</view>

@@ -1,0 +1,2 @@
+<input type="text" placeholder="请输入昵称" class="txt" bindinput="changeHandle"/>
+<button class="btn" bind:tap="saveHandle">保存</button>

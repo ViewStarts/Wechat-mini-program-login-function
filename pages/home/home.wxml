@@ -1,0 +1,34 @@
+<!-- 轮播图 -->
+<swiper  autoplay 	circular 	indicator-dots style="height: 400rpx;">
+  <swiper-item >
+    <image src="/pages/images/picture/宫园薰.png" mode="widthFix" style="width: 100%;"/>
+  </swiper-item>
+  <swiper-item>
+    <image src="/pages/images/picture/星空少女.png" mode="widthFix" style="width: 100%;"/>
+  </swiper-item>
+  <swiper-item>
+    <image src="/pages/images/picture/水洛天依.png" mode="widthFix" style="width: 100%;"/>
+  </swiper-item>
+  <swiper-item>
+    <image src="/pages/images/picture/洛天依星空.png" mode="widthFix" style="width: 100%;"/>
+  </swiper-item>
+  <swiper-item>
+    <image src="/pages/images/picture/洛奇希.png" mode="widthFix" style="width: 100%;"/>
+  </swiper-item>
+</swiper>
+
+<!-- 布局 -->
+<view class="banner">
+<view wx:for="{{banner}}" wx:key="id" bind:tap="tolist" data-item="{{item}}">
+  <image src="{{item.img}}" />
+  <text>{{item.name}}</text>
+</view>
+</view>
+
+<!-- 推荐商品 -->
+<view class="news">
+<view wx:for="{{loadlist}}" wx:key="id">
+<image src="{{item.coverImage}}" />
+<text>{{item.name}}</text>
+</view>
+</view>
